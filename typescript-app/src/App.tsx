@@ -3,7 +3,13 @@ import CounterOutput from './CounterOutput';
 
 class App extends React.Component {
   public render() {
-    return <CounterOutput counter={1} />;
+    return (
+      <div style={{textAlign:'center'}}>
+        <CounterOutput counter={1} />
+        <button>Increment</button>
+        <button>Decrement</button>
+      </div>
+    );
   }
 }
 
