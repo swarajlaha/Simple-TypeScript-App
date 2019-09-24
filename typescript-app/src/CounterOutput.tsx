@@ -7,7 +7,7 @@ interface ICounterOutputProps {
 
 const counterOutput = (props: ICounterOutputProps) => {
     return(
-        <p>{props.counter}</p>
+        <p style={{textAlign: 'center'}}>{props.counter}</p>
     )
 }
 
